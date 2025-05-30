@@ -1,0 +1,17 @@
+{
+  "name": "Anna",
+  "age": 27,
+  "profession": "Tester",
+  "skills": {
+    "hardSkills": [
+      "Java",
+      "TestIT",
+      "Swagger"
+    ],
+    "softSkills": [
+      "responsibility",
+      "attentiveness",
+      "friendliness"
+    ]
+  }
+}
