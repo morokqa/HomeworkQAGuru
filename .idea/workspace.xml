@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="490cffc8-dda6-439c-874f-8bb6c021f95f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ZipArchiveUnpackingTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/archive.zip" afterDir="false" />
+    <list default="true" id="490cffc8-dda6-439c-874f-8bb6c021f95f" name="Changes" comment="hw 9 json">
+      <change afterPath="$PROJECT_DIR$/src/test/java/allure/AnnotatedStepsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/allure/SelenideTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/allure/StepsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ParameterizedWebTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ParameterizedWebTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/data/Sections.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/data/Sections.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +27,28 @@
         <task path="$PROJECT_DIR$">
           <activation />
         </task>
-        <projects_view />
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="HomeworkQAGuru" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="HomeworkQAGuru" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="HomeworkQAGuru" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="verification" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
       </state>
     </system>
   </component>
@@ -47,9 +66,9 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="jar:///Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/AssertionError.java" root0="SKIP_INSPECTION" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2xLt1xzSDE9kvaydWub4uBTdFnL" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -58,16 +77,23 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.HomeworkQAGuru [allureReport].executor": "Run",
+    "Gradle.HomeworkQAGuru [allureServe].executor": "Run",
+    "Gradle.JsonFileTest.executor": "Run",
     "Gradle.KinopoiskTest.executor": "Run",
     "Gradle.KinopoiskTest.searchResultsShouldNotBeEmpty.executor": "Run",
+    "Gradle.LambdaStepsTest.LambdaSteps.executor": "Run",
+    "Gradle.LambdaStepsTest.executor": "Run",
     "Gradle.ParameterizedWebTest.PresenceOfSectionsOnThePage.executor": "Run",
     "Gradle.ParameterizedWebTest.executor": "Run",
     "Gradle.ParameterizedWebTest.presenceOfSectionsOnThePage.executor": "Run",
     "Gradle.ParameterizedWebTest.searchResultsShouldContainExpectedSection.executor": "Run",
     "Gradle.ParameterizedWebTest.searchResultsShouldContainExpectedUrl.executor": "Run",
     "Gradle.ParameterizedWebTest.searchResultsShouldNotBeEmpty.executor": "Run",
+    "Gradle.SelenideTest.executor": "Run",
+    "Gradle.SelenideTest.testIssueSearch.executor": "Run",
     "Gradle.ZipArchiveUnpackingTest.XLSFileUnpacking.executor": "Run",
-    "Gradle.ZipArchiveUnpackingTest.csvFileUnpacking.executor": "Run",
+    "Gradle.ZipArchiveUnpackingTest.csvFileUnpacking.executor": "Debug",
     "Gradle.ZipArchiveUnpackingTest.executor": "Debug",
     "Gradle.ZipArchiveUnpackingTest.pdfFileUnpacking.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -89,8 +115,52 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.ZipArchiveUnpackingTest.csvFileUnpacking">
-    <configuration name="ParameterizedWebTest.searchResultsShouldContainExpectedUrl" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.HomeworkQAGuru [allureServe]">
+    <configuration name="HomeworkQAGuru [allureReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="allureReport" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="HomeworkQAGuru [allureServe]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="allureServe" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="LambdaStepsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -103,7 +173,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;ParameterizedWebTest.searchResultsShouldContainExpectedUrl&quot;" />
+            <option value="&quot;allure.LambdaStepsTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -114,7 +184,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="ZipArchiveUnpackingTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LambdaStepsTest.LambdaSteps" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -127,7 +197,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;ZipArchiveUnpackingTest&quot;" />
+            <option value="&quot;allure.LambdaStepsTest.LambdaSteps&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -138,7 +208,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="ZipArchiveUnpackingTest.XLSFileUnpacking" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="StepsTest.AnnotatedSteps" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -151,55 +221,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;ZipArchiveUnpackingTest.XLSFileUnpacking&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="ZipArchiveUnpackingTest.csvFileUnpacking" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;ZipArchiveUnpackingTest.csvFileUnpacking&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="ZipArchiveUnpackingTest.pdfFileUnpacking" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;ZipArchiveUnpackingTest.pdfFileUnpacking&quot;" />
+            <option value="&quot;allure.StepsTest.AnnotatedSteps&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -212,11 +234,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.ZipArchiveUnpackingTest.csvFileUnpacking" />
-        <item itemvalue="Gradle.ZipArchiveUnpackingTest" />
-        <item itemvalue="Gradle.ZipArchiveUnpackingTest.XLSFileUnpacking" />
-        <item itemvalue="Gradle.ZipArchiveUnpackingTest.pdfFileUnpacking" />
-        <item itemvalue="Gradle.ParameterizedWebTest.searchResultsShouldContainExpectedUrl" />
+        <item itemvalue="Gradle.HomeworkQAGuru [allureServe]" />
+        <item itemvalue="Gradle.StepsTest.AnnotatedSteps" />
+        <item itemvalue="Gradle.HomeworkQAGuru [allureReport]" />
+        <item itemvalue="Gradle.LambdaStepsTest" />
+        <item itemvalue="Gradle.LambdaStepsTest.LambdaSteps" />
       </list>
     </recent_temporary>
   </component>
@@ -229,9 +251,31 @@
       <option name="presentableId" value="Default" />
       <updated>1747728974012</updated>
     </task>
+    <task id="LOCAL-00001" summary="hw 8, 9">
+      <option name="closed" value="true" />
+      <created>1748602578762</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1748602578762</updated>
+    </task>
+    <task id="LOCAL-00002" summary="hw 9 json">
+      <option name="closed" value="true" />
+      <created>1748610347098</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1748610347098</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.csv" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="hw 8, 9" />
+    <MESSAGE value="hw 9 json" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw 9 json" />
   </component>
 </project>
