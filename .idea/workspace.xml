@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="490cffc8-dda6-439c-874f-8bb6c021f95f" name="Changes" comment="hw 9 json">
-      <change afterPath="$PROJECT_DIR$/src/test/java/allure/AnnotatedStepsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/allure/SelenideTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/allure/StepsTest.java" afterDir="false" />
+    <list default="true" id="490cffc8-dda6-439c-874f-8bb6c021f95f" name="Changes" comment="hw 10. Allure">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/allure/AnnotatedStepsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allure/AnnotatedStepsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/allure/SelenideTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/allure/StepsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allure/StepsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,37 +74,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.HomeworkQAGuru [allureReport].executor": "Run",
-    "Gradle.HomeworkQAGuru [allureServe].executor": "Run",
-    "Gradle.JsonFileTest.executor": "Run",
-    "Gradle.KinopoiskTest.executor": "Run",
-    "Gradle.KinopoiskTest.searchResultsShouldNotBeEmpty.executor": "Run",
-    "Gradle.LambdaStepsTest.LambdaSteps.executor": "Run",
-    "Gradle.LambdaStepsTest.executor": "Run",
-    "Gradle.ParameterizedWebTest.PresenceOfSectionsOnThePage.executor": "Run",
-    "Gradle.ParameterizedWebTest.executor": "Run",
-    "Gradle.ParameterizedWebTest.presenceOfSectionsOnThePage.executor": "Run",
-    "Gradle.ParameterizedWebTest.searchResultsShouldContainExpectedSection.executor": "Run",
-    "Gradle.ParameterizedWebTest.searchResultsShouldContainExpectedUrl.executor": "Run",
-    "Gradle.ParameterizedWebTest.searchResultsShouldNotBeEmpty.executor": "Run",
-    "Gradle.SelenideTest.executor": "Run",
-    "Gradle.SelenideTest.testIssueSearch.executor": "Run",
-    "Gradle.ZipArchiveUnpackingTest.XLSFileUnpacking.executor": "Run",
-    "Gradle.ZipArchiveUnpackingTest.csvFileUnpacking.executor": "Debug",
-    "Gradle.ZipArchiveUnpackingTest.executor": "Debug",
-    "Gradle.ZipArchiveUnpackingTest.pdfFileUnpacking.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.HomeworkQAGuru [allureReport].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.HomeworkQAGuru [allureServe].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.JsonFileTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.KinopoiskTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.KinopoiskTest.searchResultsShouldNotBeEmpty.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.LambdaStepsTest.LambdaSteps.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.LambdaStepsTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ParameterizedWebTest.PresenceOfSectionsOnThePage.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ParameterizedWebTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ParameterizedWebTest.presenceOfSectionsOnThePage.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ParameterizedWebTest.searchResultsShouldContainExpectedSection.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ParameterizedWebTest.searchResultsShouldContainExpectedUrl.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ParameterizedWebTest.searchResultsShouldNotBeEmpty.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SelenideTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SelenideTest.testIssueSearch.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.StepsTest.AnnotatedSteps.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.StepsTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ZipArchiveUnpackingTest.XLSFileUnpacking.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ZipArchiveUnpackingTest.csvFileUnpacking.executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.ZipArchiveUnpackingTest.executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.ZipArchiveUnpackingTest.pdfFileUnpacking.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/resources" />
@@ -184,7 +185,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="LambdaStepsTest.LambdaSteps" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="StepsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -197,7 +198,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;allure.LambdaStepsTest.LambdaSteps&quot;" />
+            <option value="&quot;allure.StepsTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -235,10 +236,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.HomeworkQAGuru [allureServe]" />
+        <item itemvalue="Gradle.StepsTest" />
         <item itemvalue="Gradle.StepsTest.AnnotatedSteps" />
         <item itemvalue="Gradle.HomeworkQAGuru [allureReport]" />
         <item itemvalue="Gradle.LambdaStepsTest" />
-        <item itemvalue="Gradle.LambdaStepsTest.LambdaSteps" />
       </list>
     </recent_temporary>
   </component>
@@ -267,7 +268,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748610347098</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="hw 10. Allure">
+      <option name="closed" value="true" />
+      <created>1748952372926</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1748952372926</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -276,6 +285,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="hw 8, 9" />
     <MESSAGE value="hw 9 json" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw 9 json" />
+    <MESSAGE value="hw 10. Allure" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw 10. Allure" />
   </component>
 </project>

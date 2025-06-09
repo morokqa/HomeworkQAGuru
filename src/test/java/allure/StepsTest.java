@@ -11,10 +11,11 @@ import static io.qameta.allure.Allure.step;
 import static org.openqa.selenium.By.linkText;
 
 public class StepsTest {
-    private static final String REPOSITORY = "eroshenkoam/allure-example";
-    private static final int ISSUE = 80;
+private static String REPOSITORY = "alphacep/vosk-api";
+private static String NAME = "Performance tips";
+
     @Test
-    public void LambdaSteps() {
+    public void issueLambdaStepsTest() {
         SelenideLogger.addListener("allure", new AllureSelenide());
 
         step("Открываем главную страницу", () -> {
@@ -31,14 +32,14 @@ public class StepsTest {
         step("Открываем таб Issues", () -> {
             $("#issues-tab").click();
         });
-        step("Проверяем наличие Issue с номером " + REPOSITORY, () -> {
-            $(withText("#" + ISSUE)).should(Condition.exist);
+        step("Проверяем наличие Issue с названием " + NAME, () -> {
+            $(withText(NAME)).should(Condition.exist);
         });
 
     }
 
     @Test
-    public void AnnotatedSteps() {
+    public void issueAnnotatedStepsTest() {
         SelenideLogger.addListener("allure", new AllureSelenide());
         AnnotatedStepsTest steps = new AnnotatedStepsTest();
 
@@ -46,6 +47,6 @@ public class StepsTest {
         steps.searchForRepository(REPOSITORY);
         steps.clickOnRepositoryLink(REPOSITORY);
         steps.openIssuesTab();
-        steps.shouldSeeIssueWithNumber(ISSUE);
+        steps.shouldSeeIssueWithName(NAME);
     }
 }
